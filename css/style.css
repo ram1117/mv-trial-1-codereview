@@ -1,0 +1,43 @@
+* {
+}
+body {
+}
+
+#title,
+#description {
+  text-align: center;
+}
+#title {
+  margin-top: 10vh;
+}
+#description {
+  font-size: 24px;
+}
+.form-container {
+  width: 50%;
+  background-color: #2d2945;
+  color: white;
+  margin: 5vh auto;
+}
+#survey-form {
+  padding: 5vh;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.input {
+  padding: 12px;
+  border-radius: 5px;
+}
+#submit {
+  background-color: #41af65;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #52e382;
+}
